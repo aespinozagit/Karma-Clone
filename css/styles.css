@@ -425,3 +425,16 @@ td,
 th {
   padding: 0;
 }
+/**
+ * End of Reset
+ */
+/**
+ * Start of Custom Styles
+ */
+ body {
+	background-color: lightgray;
+}
+
+div {
+	border: 1px solid chocolate;
+}
