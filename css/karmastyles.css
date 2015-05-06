@@ -1,0 +1,17 @@
+/* Navigatin section*/
+.top-navigation {
+	background-color: #fff;
+	height: 4.375rem;
+	width: 60rem;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.main-header, .learn-button, .section, .main-footer {
+	text-align: center;
+
+}
