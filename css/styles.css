@@ -483,6 +483,9 @@ th {
   color: #333;
 }
 
+.main-header {
+  background-image: url("../images/first-background.jpg");
+}
 
 .main-header, .learn-button, .section, .main-footer {
   text-align: center;
