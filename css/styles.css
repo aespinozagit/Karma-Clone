@@ -1,9 +1,13 @@
 html {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 *, *:before, *:after {
+  -webkit-box-sizing: inherit;
   box-sizing: inherit;
+  padding: 0;
+  margin: 0;
 }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -455,7 +459,7 @@ th {
 {
   padding: 0px 15px;
   height: 71px;
-  z-index: 5;
+  box-sizing: content-box;
 }
 
 .top-navigation .links {
@@ -485,7 +489,12 @@ th {
 
 .main-header {
   background-image: url("../images/first-background.jpg");
+  display: inline-block;
+  background-repeat: no-repeat;
+
 }
+
+
 
 .main-header, .learn-button, .section, .main-footer {
   text-align: center;
