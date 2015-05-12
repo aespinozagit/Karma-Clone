@@ -452,6 +452,7 @@ body {
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 9999;
   }
 
 
@@ -536,17 +537,42 @@ button:hover {
     cursor: pointer;
 }
 
-section.cases > h2{
+section.cases > h2 {
   font-weight: 300;
   margin-top: 6rem;
   font-size: 2.5rem;
 
 }
-section.middle h3 {
+ .cases h2 {
+    font-size: 2.5rem;
+  font-weight: 300;
+ }
+
+ .devices h3 {
+    font-size: 1.75rem;
+  font-weight: 300;
+ }
+
+.cases .devices {
+  width: 33.3333333%;
+  display: inline-block;
+  /*Styles to assist with debugging*/
+  border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;
+}
+
+.devices > li {
   display: inline-block;
 }
 
-.introduction, .cases, .main-footer {
+.icons li {
+  border: 1px solid black;
+}
+
+.introduction, .cases, .social {
   text-align: center;
 
 }
+
+
