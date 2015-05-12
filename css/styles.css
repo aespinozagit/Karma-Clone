@@ -516,10 +516,6 @@ body {
     font-size: 1.563rem;
 }
 
-.introduciton  .content {
-  line-height: 10px;
-}
-
 /* Button */
 .big-button {
   text-shadow: none;
@@ -539,7 +535,18 @@ button:hover {
     border-color: #cf3d0e;
     cursor: pointer;
 }
-.introduction,  .section, .main-footer {
+
+section.cases > h2{
+  font-weight: 300;
+  margin-top: 6rem;
+  font-size: 0rem;
+
+}
+section.middle h3 {
+  display: inline-block;
+}
+
+.introduction, .cases, .main-footer {
   text-align: center;
 
 }
