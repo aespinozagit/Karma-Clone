@@ -452,6 +452,7 @@ body {
   background-color: #fff;
   position: fixed;
   width: 100%;
+  z-index: 9999;
   }
 
 
@@ -536,17 +537,71 @@ button:hover {
     cursor: pointer;
 }
 
-section.cases > h2{
+section.cases > h2 {
   font-weight: 300;
   margin-top: 6rem;
   font-size: 2.5rem;
 
 }
-section.middle h3 {
+ .cases h2 {
+    font-size: 2.5rem;
+  font-weight: 300;
+ }
+
+ .devices h3 {
+    font-size: 1.75rem;
+  font-weight: 300;
+ }
+
+.cases .devices {
+  width: 33.3333333%;
+  display: inline-block;
+  /*Styles to assist with debugging*/
+ /* border: 1px solid black;
+  box-sizing: border-box;
+  height: 4em;*/
+}
+
+.devices > li {
   display: inline-block;
 }
 
-.introduction, .cases, .main-footer {
+.social {
+  padding-top: 9.375rem;
+}
+.icons li {
+  width: 40px;
+  height: 40px;
+    margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.social .icons > li:hover {
+    cursor: pointer;
+}
+.social .twitter {
+    color: #55acee;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .instagram {
+    color: #3f729b;
+}
+.social .copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
+}
+
+
+.introduction, .cases, .social {
   text-align: center;
 
 }
+
+
