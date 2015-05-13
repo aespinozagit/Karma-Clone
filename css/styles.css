@@ -543,6 +543,10 @@ section.cases > h2 {
   font-size: 2.5rem;
 
 }
+
+.cases {
+  padding-bottom: 5rem;
+}
  .cases h2 {
     font-size: 2.5rem;
   font-weight: 300;
@@ -562,8 +566,13 @@ section.cases > h2 {
   height: 4em;*/
 }
 
+.cases .devices > li {
+
+}
+
 .devices > li {
   display: inline-block;
+  float: left;
 }
 
 .social {
