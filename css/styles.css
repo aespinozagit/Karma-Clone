@@ -454,8 +454,9 @@ body {
 /*Navigation Styles*/
 .content {
   margin: 0 auto;
-  padding: 0px 15px;
+  padding: 0rem 15px;
   min-width: 37.5rem;
+  max-width: 70rem;
 }
 
 .top-navigation {
