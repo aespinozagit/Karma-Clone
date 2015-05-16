@@ -454,7 +454,11 @@ body {
 /*Navigation Styles*/
 .content {
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 0px 15px;
+=======
+  padding: 0rem 15px;
+>>>>>>> ceefa361b906159127affdea0e6073bb07571716
   min-width: 37.5rem;
   max-width: 70rem;
 }
