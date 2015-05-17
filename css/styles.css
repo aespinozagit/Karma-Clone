@@ -454,11 +454,8 @@ body {
 /*Navigation Styles*/
 .content {
   margin: 0 auto;
-<<<<<<< HEAD
   padding: 0px 15px;
-=======
   padding: 0rem 15px;
->>>>>>> ceefa361b906159127affdea0e6073bb07571716
   min-width: 37.5rem;
   max-width: 70rem;
 }
@@ -484,8 +481,6 @@ body {
 
 .top-navigation .links li {
   display: inline-block;
-  margin-left: 1.563rem; ]
-  margin-right: ;
 }
 
 .top-navigation .links  li.active {
@@ -632,4 +627,31 @@ button:hover {
   border: 0;
   border-top: 1px solid lightgray;
   margin: 1.313rem 0;
+}
+
+@media (min-width: 48rem) {
+    .content {
+        width: 46rem;
+    }
+}
+@media (min-width: 62rem) {
+    .content {
+        width: 60rem;
+    }
+}
+@media (min-width: 75rem) {
+    .content {
+        width: 60%;
+    }
+}
+
+/* Chrome, Safari, Opera */ 
+@-webkit-keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
+}
+/* Standard syntax */ 
+@keyframes bounce {
+    0%, 100% {margin-top: 0px;}
+    50% {margin-top: 2rem;}
 }
