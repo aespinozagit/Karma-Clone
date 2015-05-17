@@ -454,10 +454,12 @@ body {
 /*Navigation Styles*/
 .content {
   margin: 0 auto;
-  padding: 0px 15px;
-  padding: 0rem 15px;
+  padding: 0rem 1rem;
   min-width: 37.5rem;
-  max-width: 70rem;
+}
+
+:focus {
+    outline: none;
 }
 
 .top-navigation {
@@ -481,6 +483,7 @@ body {
 
 .top-navigation .links li {
   display: inline-block;
+  margin-left: 1.563rem;
 }
 
 .top-navigation .links  li.active {
